@@ -1,9 +1,10 @@
 
 
-let i = 1;
 
 
-function loop(){
+
+function even_number(){
+  let i = 1;
   while (i <= 100) {
    if(i%2 == 0){
     console.log(i);
